@@ -38,3 +38,6 @@ Thumbs.db
 # User-specific configurations
 .idea/
 *.iml
+
+#Ignore movies
+app/src/main/res/movies/
