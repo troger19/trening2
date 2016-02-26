@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.jano.trening"
+        minSdkVersion 16
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+ext {
+    supportLibVersion = '23.1.1'  // variable that can be referenced to keep support libs consistent
+}
+ // dependency for charts
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:${supportLibVersion}"
+    compile "com.android.support:design:${supportLibVersion}"
+//    compile 'com.android.support:appcompat-v7:22.2.1'
+//    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.squareup:android-times-square:1.6.4'
+//    compile 'com.android.support:support-v4:22.2.1'
+    compile "com.android.support:support-v4:${supportLibVersion}"
+    compile 'com.github.PhilJay:MPAndroidChart:v2.0.9' // dependency for charts
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.woxthebox:draglistview:1.1.9'
+}

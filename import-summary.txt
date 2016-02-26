@@ -1,0 +1,146 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\gen\
+* .idea\gen\com\
+* .idea\gen\com\jano\
+* .idea\gen\com\jano\trening\
+* .idea\gen\com\jano\trening\BuildConfig.java
+* .idea\gen\com\jano\trening\Manifest.java
+* .idea\gen\com\jano\trening\R.java
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\trening.iml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* README.md
+* Trening\
+* Trening\.classpath
+* Trening\.project
+* Trening\.settings\
+* Trening\.settings\org.eclipse.jdt.core.prefs
+* Trening\bin\
+* Trening\bin\AndroidManifest.xml
+* Trening\bin\R.txt
+* Trening\bin\Trening.apk
+* Trening\bin\classes.dex
+* Trening\bin\classes\
+* Trening\bin\classes\.gitignore
+* Trening\bin\dexedLibs\
+* Trening\bin\dexedLibs\android-support-v4-c804758dd65a4693fdeeaa70eccecf83.jar
+* Trening\bin\dexedLibs\android-support-v7-appcompat-5de5007660c9ecf2dbf2190cde03adb8.jar
+* Trening\bin\dexedLibs\appcompat_v7-98e35d506e3f0658f72ddeb79dc6871b.jar
+* Trening\bin\jarlist.cache
+* Trening\bin\res\
+* Trening\bin\res\crunch\
+* Trening\bin\res\crunch\drawable-hdpi\
+* Trening\bin\res\crunch\drawable-hdpi\ic_launcher.png
+* Trening\bin\res\crunch\drawable-mdpi\
+* Trening\bin\res\crunch\drawable-mdpi\ic_launcher.png
+* Trening\bin\res\crunch\drawable-xhdpi\
+* Trening\bin\res\crunch\drawable-xhdpi\ic_launcher.png
+* Trening\bin\res\crunch\drawable-xxhdpi\
+* Trening\bin\res\crunch\drawable-xxhdpi\ic_launcher.png
+* Trening\bin\resources.ap_
+* Trening\gen\
+* Trening\gen\.gitignore
+* Trening\ic_launcher-web.png
+* Trening\libs\
+* Trening\libs\android-support-v4.jar
+* Trening\proguard-project.txt
+* Trening\project.properties
+* Trening\res\
+* Trening\res\drawable-hdpi\
+* Trening\res\drawable-hdpi\ic_launcher.png
+* Trening\res\drawable-mdpi\
+* Trening\res\drawable-mdpi\ic_launcher.png
+* Trening\res\drawable-xhdpi\
+* Trening\res\drawable-xhdpi\ic_launcher.png
+* Trening\res\drawable-xxhdpi\
+* Trening\res\drawable-xxhdpi\ic_launcher.png
+* Trening\res\layout\
+* Trening\res\layout\activity_counter.xml
+* Trening\res\layout\activity_main.xml
+* Trening\res\menu\
+* Trening\res\menu\main.xml
+* Trening\res\raw\
+* Trening\res\raw\onetwo.mp3
+* Trening\res\raw\ticks10s.mp3
+* Trening\res\values-v11\
+* Trening\res\values-v11\styles.xml
+* Trening\res\values-v14\
+* Trening\res\values-v14\styles.xml
+* Trening\res\values-w820dp\
+* Trening\res\values-w820dp\dimens.xml
+* Trening\res\values\
+* Trening\res\values\dimens.xml
+* Trening\res\values\strings.xml
+* Trening\res\values\styles.xml
+* Trening\src\
+* Trening\src\com\
+* Trening\src\com\example\
+* Trening\src\com\example\main\
+* Trening\src\com\example\main\CounterActivity.java
+* Trening\src\com\example\main\MainActivity.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.2.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:22.2.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
